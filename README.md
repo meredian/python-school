@@ -9,6 +9,7 @@
 ## ПО к курсу
 
 - [Anaconda](https://www.anaconda.com/download) - пакет программ для работы с питоном + среда Jupyter Notebook
+- [Python Vizualizer](http://python-school.herokuapp.com) - онлайновый интерпретатор/визуализатор Питона.
 
 ## Материалы к курсу
 

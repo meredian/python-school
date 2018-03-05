@@ -12,7 +12,7 @@
     "serve-static": "^1.13.2"
   },
   "engines": {
-    "node": "9.*"
+    "node": "^9.x"
   },
   "devDependencies": {},
   "scripts": {
