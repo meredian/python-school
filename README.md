@@ -28,7 +28,7 @@
 ## Установка
 
 ```
-cd server && npm install
+npm install
 ```
 
 ## Запуск
