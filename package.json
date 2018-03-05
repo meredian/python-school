@@ -1,7 +1,7 @@
 {
   "name": "python-school",
   "version": "0.1.0",
-  "description": "## Цели мини-курса",
+  "description": "Project for managing python school education",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -11,6 +11,9 @@
     "request": "^2.83.0",
     "serve-static": "^1.13.2"
   },
+  "engines": {
+    "node": "9.*"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +22,8 @@
     "type": "git",
     "url": "git+https://github.com/meredian/python-school.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Anton Sidelnikov <ndmeredian@gmail.com>",
+  "license": "BSD 2",
   "bugs": {
     "url": "https://github.com/meredian/python-school/issues"
   },
