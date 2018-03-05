@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Интерактивный учебник языка Python</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/static/js/ace.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.jsPlumb-1.6.4-min.js"></script>
+    <script type="text/javascript" src="/static/js/pythontutor.js"></script>
+    <script type="text/javascript" src="/static/js/visualizer.js"></script>
+    <script type="text/javascript" src="/static/js/visualizer-page.js"></script>
+
+    <script type="text/javascript" src="/static/js/brython.js"></script>
+    <script type="text/python3" src="/static/py/checker.py"></script>
+    <script>
+
+    $(function() {
+        brython({debug: 1});
+    });
+
+    </script>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      messageStyle: "none"
+    });
+    </script>
+    <script type="text/javascript" src="/static/js/MathJax.js"></script>
+    <script type="text/javascript" src="/static/js/handlebars-v4.0.5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/pythontutor.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/visualizer.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/profile.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </script>
+
+
+</head>
+<body>
+
+	<div class="container-fluid">
+
+	<div>
+		<br>
+		<br>
+		<h3>Визуализатор выполнения Python</h3>
+		<br>
+		<div class="row">
+			<div class="col-md-9">
+				<div id="visualizer_demo"></div>
+			</div>
+		</div>
+	</div>
+		
+	</div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Спасибо ребятам с <a href="http://pythontutor.ru/">Python tutor</a> за рабочий визуализатор. Жаль только, что для него требуется регистрация, поэтому я собрал эту страничку, что бы можно было просто использовать ее на уроках.</p>
+        </div>
+    </div>
+</body>
+
+<script src="/static/js/bundle.js"></script>
+
+</html>

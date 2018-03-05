@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i|Roboto+Condensed:700|Rubik+One&subset=cyrillic');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+	text-align: left;
+	border-top: 1px solid #bbbbbb;
+	padding: 11px 0 40px 20px;
+	font-size: 75%;
+}
+
+footer .like-buttons {
+  width: 100%;
+}
+
+.like-buttons > div {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rate-container {
+  margin-top: 2rem;
+}
+
+.smartsnippet {
+  padding: 20px;
+  border-radius: 10px;
+
+  background-color: #eee;
+}
+
+.navbar-brand {
+  font-family: Rubik One;
+  text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "python-school",
+  "version": "0.1.0",
+  "description": "## Цели мини-курса",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect": "^3.6.6",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meredian/python-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meredian/python-school/issues"
+  },
+  "homepage": "https://github.com/meredian/python-school#readme"
+}
